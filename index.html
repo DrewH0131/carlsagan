@@ -1,0 +1,99 @@
+<!---  Drew Horst 8120131  -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My First Website</title>
+    <meta name="keywords"
+        content="carl,sagan,science,scientist,astronomy,astronomer,planetary,communicator,cosmos,contact,nasa,seti">
+    <meta name="description"
+        content="This is a site about the American astronomer, planetary scientist and science communicator.">
+</head>
+
+<body>
+    <div class="main-section">
+        <header id="top">
+            <h1>Carl Sagan - The Cosmos Pioneer</h1>
+            <a href="#bottom">Bottom of Page</a>
+        </header>
+
+    </div>
+    <main>
+        <section id="biography" class="main-section">
+            <h2>Biography</h2>
+            <blockquote cite="https://www.britannica.com/biography/Carl-Sagan">
+                "Carl Sagan was an American astronomer and science writer. A popular and influential figure in the
+                United States, he was controversial in scientific, political, and religious circles for his views on
+                extraterrestrial intelligence, nuclear weapons, and religion."
+            </blockquote>
+            <p><strong>Born:</strong> November 9, 1934<br>
+                <strong>Died:</strong> December 20, 1996
+            </p>
+        </section>
+        <section id="image" class="main-section">
+            <h2>Image</h2>
+            <figure>
+                <img width="500" height="500" src="images/carlsaganpic1.jpg"
+                    alt="Carl Sagan with his arms folded in front of a galaxy in the backround. ">
+                <figcaption>Carl Sagan, the man who inspired millions to be interested in the cosmos.</figcaption>
+            </figure>
+        </section>
+        <section id="quote" class="main-section">
+            <h2>Quote</h2>
+            <q cite="https://www.goodreads.com/author/quotes/10538.Carl_Sagan">Imagination will often carry us to worlds
+                that never were, but without it we go nowhere.</q><cite>- Carl Sagan</cite>
+
+        </section>
+        <section id="video" class="main-section">
+            <h2>Video</h2>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/wupToqz1e2g" frameborder="0"
+                allowfullscreen></iframe>
+
+        </section>
+
+
+    </main>
+    <aside>
+        <section id="resources" class="aside-section">
+            <h2>Resources</h2>
+            <ul>
+                <li><a href="https://www.britannica.com/biography/Carl-Sagan" target="_blank"
+                        title="Britannica Biography">Britannica</a></li>
+                <li><a href="https://www.goodreads.com/author/quotes/10538.Carl_Sagan" target="_blank"
+                        title="Carl Sagan Quotes">Goodreads</a></li>
+                <li><a href="https://science.nasa.gov/people/carl-sagan/" target="_blank"
+                        title="Carl Sagan NASA page">NASA</a></li>
+            </ul>
+        </section>
+        <section id="contact" class="aside-section">
+            <h2>Contact</h2>
+            <form>
+                <label for="name" class="form-label">Name:</label>
+                <input type="text" id="name" class="form-control" autofocus placeholder="Your Name" required>
+                <label for="email" class="form-label">Email:</label>
+                <input type="email" name="email" id="email" class="form-control" placeholder="Your Email">
+
+                <label for="message" class="form-label">Message:</label>
+                <textarea id="message" class="form-control"></textarea>
+                <label for="topic" class="form-label">Topic:</label>
+                <select id="topic" name="topic" class="form-control">
+                    <option selected>General Inquiry</option>
+                    <option>Feedback</option>
+                </select>
+
+                <input type="submit" value="Submit" class="form-control">
+
+            </form>
+
+
+        </section>
+    </aside>
+    <footer id="bottom">
+        <a href="#top">Top of Page</a>
+        <p>Drew Horst &copy; 2025</p>
+    </footer>
+</body>
+
+</html>
