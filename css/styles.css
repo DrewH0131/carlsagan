@@ -50,6 +50,7 @@ figcaption {
     color: rgb(240, 240, 240);
 }
 
+header,
 footer {
     font-size: 0.8rem;
     clear: both;
