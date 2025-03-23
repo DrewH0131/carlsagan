@@ -40,6 +40,11 @@ main {
     width: 70%;
 }
 
+figcaption {
+    font: italic small-caps 500 28px/1.5 tahoma, sans-serif;
+    color: rgb(240, 240, 240);
+}
+
 footer {
     font-size: 0.8rem;
     clear: both;
