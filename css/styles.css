@@ -50,7 +50,10 @@ figcaption {
     color: rgb(240, 240, 240);
 }
 
-header,
+header {
+    background-image: linear-gradient(45deg, rgb(100, 60, 130), rgb(128, 0, 128));
+}
+
 footer {
     font-size: 0.8rem;
     clear: both;
